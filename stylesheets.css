@@ -1,35 +1,100 @@
-div  {
-    margin:  auto ;
-    ;
-   display: flex;
-   flex-direction: column;
+.container {
+    display : flex;
+    flex-direction: column;
     align-items: center;
+    border-color: rgb(230, 159, 116);
+    border-width: 1px;
+}
+
+.grey {
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(74, 74, 74);
+    border-width: 2px;
     
 }
 
+.inputarea {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(74, 74, 74);
+    border-width: 1px;
+    width: 30vw;
+}
 
+.grey > * {
+}
+.aligned {
+    display: flex;
+    flex-direction: row;
+}
 
-button {
+.left {
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
     
-    color: hsl(0, 57%, 51%);
-    margin:  auto ;
+}
+ .left > * {
+    margin: 3px;
+    
+ }
+ }
+ 
+ .right > * {
+    
     display: block;
-    justify-content: center;
-    align-items: center;
+ }
+
+.right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
     
-    
-    
+
 }
 
+label{ 
+    display: block;
+    margin: 5px;
+}
 
 footer {
-    margin:  50 px , auto ;
-    width: 100vw;
-    
-    text-align: center;
+ text-align: center;
+ display: flex;
+ justify-content: flex-end;
+}
+/* version 2 */
+
+.formarea{
+    display: flex;
+    flex-direction: column;
+
 }
 
+.formarea > * {
+    display:inline-flex;
+    height: 20px;
+    padding: 2px;
+    
+    
+}
 
-a {
-    text-align: center;
+label {
+    text-align: right;
+    width: 40%;
+    margin-top: 2px;
+}
+
+.graybox{
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(74, 74, 74);
+    border-width: 2px;
+    margin: auto;
+    width: 70%;
 }
