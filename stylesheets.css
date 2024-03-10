@@ -1,0 +1,35 @@
+div  {
+    margin:  auto ;
+    ;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+button {
+    
+    color: hsl(0, 57%, 51%);
+    margin:  auto ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+footer {
+    margin:  50 px , auto ;
+    width: 100vw;
+    
+    text-align: center;
+}
+
+
+a {
+    text-align: center;
+}
