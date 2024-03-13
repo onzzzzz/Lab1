@@ -7,76 +7,61 @@
     <link href="stylesheets.css" rel="stylesheet"  type="text/css"/>
 </head>
 <body>
-    <div>
+    <main>
         <a href="/index.html">
-            <button>Go back</button>
+            <button class="backbtn">Go back</button>
         </a>
 
-    <div class="graybox">
-        <div class="formarea">
-            <div >
-                <label for="name"> * Name</label>
-                <input type="text" id="name" name="name" class="inputarea">
-            </div>
-            <div>
-                <label for="email"> * Email </label>
-                <input type="email" id="email" name="email" class="inputarea">
-            </div>
-            <div>
-                <label for="password"> * Password</label>
-                <div>
-                    <input type="text" id="password" name="password" class="inputarea">
-                    <button>?</button>
-                </div>
-            </div>
-            <div>
-                <label for="retype"> * Re-type password</label>
-                <input type="text" id="repassword" name="repassword" class="inputarea">
-            </div>
-            <div>
-                <label></label>
-                <div>
-                    <input type="submit" value="Sign up">
-                    <a href="/forgot.html">Forgot the passowrd?</a>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-        
         <div class="container">
-            <h1>Sign up</h1>
-            <div class="grey">
-                <form class="aligned">
-                    
 
+            <div class="title" >
+                <h2> Sign in </h2>
+            </div>
 
-                    <div class="right">
+            <div class="graybox">
+                <div class="formarea">
+                    <div >
                         <label for="name"> * Name</label>
-                        <label for="email"> * Email </label>
-                        <label for="password"> * Password</label>
-                        <label for="retype"> * Re-type password</label>
-
-                    </div>
-                    <div class="left">
                         <input type="text" id="name" name="name" class="inputarea">
+                    </div>
+                    <div>
+                        <label for="email"> * Email </label>
                         <input type="email" id="email" name="email" class="inputarea">
+                    </div>
+                    <div>
+                        <label for="password"> * Password</label>
                         <div>
                             <input type="text" id="password" name="password" class="inputarea">
-                            <button>?</button>
+                            <button class="infobtn">?</button>
                         </div>
-                        <input type="text" id="repassword" name="repassword" class="inputarea">
-                        <div>
-                            <input type="submit" value="Sign up">
-                            <a href="/forgot.html">Forgot the passowrd?</a>
-                        </div>
-                       
                     </div>
-                </form>
-                
+                    <div>
+                        <label for="retype"> * Re-type password</label>
+                        <input type="text" id="repassword" name="repassword" class="inputarea">
+                    </div>
+
+                    <div class="row">
+                        <label></label>
+                        <div class="row">
+                            <input type="checkbox" >
+                            <div>I agree to the &nbsp<a href="/forgot.html"> Terms of Use</a> &nbsp and &nbsp <a href="/forgot.html">Privacy Policy</a></div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <label></label>
+                        <div >
+                            <input type="submit" value="Sign up" class="backbtn">
+                            <a href="/forgot.html">Learn more</a>
+                        </div> 
+                    </div>
+
+                    
+                </div> 
             </div>
         </div>
-    </div>
-    
+    </main>
 </body>
 </html>
